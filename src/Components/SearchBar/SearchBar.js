@@ -44,7 +44,7 @@ const SearchBar = ({searchSchema}) => {
     return (
         <div className="flex justify-center mb-4">
             {searchSchema && searchSchema.map((sch) => {
-                return (<SelectBox dropdownList={sch.enumValues} id={sch.id} onChange={eventHandler} />)
+                return (<SelectBox key={sch.id} dropdownList={sch.enumValues} id={sch.id} onChange={eventHandler} />)
             })}
             <button className="text-white bg-black rounded p-2" onClick={onSearch}>
                 Search

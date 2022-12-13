@@ -35,6 +35,7 @@ const Grid = ({ gridData, currentPage, dataPerPage, onPageChange }) => {
                     paginatedGridData && paginatedGridData.map((data) => {
                         return (
                             <Card
+                                key={data.ship_id}
                                 id={data.ship_id}
                                 name={data.ship_name}
                                 image={data.image}
