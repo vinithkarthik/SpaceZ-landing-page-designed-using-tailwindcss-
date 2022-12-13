@@ -14,7 +14,7 @@ const Header = ({headerNavList}) => {
     return (
         <header className="flex flex-row p-4">
             <label className="m-3 text-4xl">SpaceZ</label>
-            <nav className="m-auto">
+            <nav className="m-auto md:block hidden">
                 <ul className="flex flex-row">
                     {headerNavList && headerNavList.map((list) => {
                         return (<li key={list.id} className="m-3 cursor-pointer">{list.label}</li>)

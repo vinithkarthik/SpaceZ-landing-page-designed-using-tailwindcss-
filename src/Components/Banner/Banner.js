@@ -7,7 +7,7 @@ import React from "react";
 const Banner = () => {
     return (
         <div className="flex flex-col justify-center items-center h-[30vh] bg-gradient-to-t from-[#283E51] to-[#0A2342] mb-5 uppercase">
-            <h1 className="text-7xl text-white">Journey to Infinity and Beyond</h1>
+            <h1 className="sm:text-xl lg:text-4xl xl:text-7xl text-white">Journey to Infinity and Beyond</h1>
             <p className="mt-4 text-xl text-white">We're going to make it happen</p>
         </div>
     )
