@@ -12,3 +12,11 @@
  > webpack
  > babel
  > react-dropdown
+ > react-testing-library
+ >jest
+ >jest-dom
+ 
+ ## Running unit test case
+ Use npm run test command to run unit test cases
+ 
+ 
